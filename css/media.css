@@ -1,0 +1,176 @@
+@media only screen and (max-width: 768px) {
+	.container {
+		max-width: 90%;
+	}
+
+	.header_links {
+		display: none;
+	}
+
+	.main_block {
+		background: url(../images/blue.png);
+	}
+
+	h1 {
+		font-size: 45px;
+		line-height: 100%;
+		color: #ffffff;
+	}
+
+	.text_1 {
+		font-style: normal;
+		font-weight: normal;
+		font-size: 26px;
+		line-height: 110%;
+		color: #ffffff;
+	}
+
+	.main_information_links {
+		width: 212px;
+	}
+
+	.main_information_links a {
+		display: block;
+		width: 212px;
+		margin-bottom: 42px;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 140%;
+	}
+
+	.img-text {
+		display: block;
+	}
+
+	.img_green,
+	.form-style {
+		width: 65%;
+	}
+
+	h3 {
+		font-style: normal;
+		font-weight: normal;
+		font-size: 45px;
+		line-height: 100%;
+	}
+
+	.tex_2 {
+		margin: 0;
+		font-size: 16px;
+	}
+
+	.basic_elements {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-column-gap: 90px;
+		grid-row-gap: 70px;
+		padding-bottom: 120px;
+	}
+
+	.Amperia span {
+		font-size: 45px;
+	}
+
+	.Amperia a {
+		padding: 17px 47px;
+	}
+
+	h4 {
+		padding: 0;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 34px;
+		line-height: 110%;
+	}
+
+	.padd-top_3 {
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.img_styl {
+		width: 100%;
+		order: 0;
+	}
+
+	.text_styl {
+		width: 100%;
+		order: 1;
+	}
+
+	.button_yet a {
+		font-size: 20px;
+	}
+
+	.block_text_img {
+		display: block;
+	}
+
+	.img_padd,
+	.Hydeline {
+		width: 65%;
+	}
+
+	.img_padd {
+		margin-bottom: 15px;
+	}
+
+	.Hydeline {
+		margin-left: 0;
+	}
+
+	.send_form {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#lastname,
+	#lasttelephone {
+		width: 65%;
+	}
+
+	.send_form button {
+		width: 213px;
+		font-size: 16px;
+		margin: 0;
+	}
+
+	.stages {
+		padding-bottom: 100px;
+	}
+
+	.tabl {
+		display: block;
+	}
+
+	.text_blok {
+		width: 100%;
+	}
+
+	.tabl_text {
+		font-size: 20px;
+	}
+
+	.contact_form {
+		display: block;
+		padding-bottom: 120px;
+	}
+
+	.contact_form form {
+		width: 65%;
+	}
+
+	.contact_form #lastname,
+	.contact_form #lasttelephone {
+		width: 100%;
+	}
+
+	.smi_block {
+		width: 65%;
+		grid-template-columns: repeat(2, 1fr);
+		grid-column-gap: 20px;
+		grid-row-gap: 30px;
+	}
+}
